@@ -20,7 +20,7 @@ export default function Home() {
           className="w-full flex flex-col sm:flex-row gap-6 sm:gap-8 items-center justify-center mt-2"
         >
           <Button
-            className="flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#d1fae5] hover:bg-[#a7f3d0] focus-visible:ring-4 focus-visible:ring-[#34d399] border-2 border-transparent transition-all duration-150 outline-none group text-black"
+            className="w-full sm:w-auto flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#d1fae5] hover:bg-[#a7f3d0] focus-visible:ring-4 focus-visible:ring-[#34d399] border-2 border-transparent transition-all duration-150 outline-none group text-black"
             aria-label="Start Calm mode"
             onClick={() => {
               /* TODO: Start Calm mode */
@@ -44,7 +44,7 @@ export default function Home() {
             <span>Calm</span>
           </Button>
           <Button
-            className="flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#fef08a] hover:bg-[#fde047] focus-visible:ring-4 focus-visible:ring-[#facc15] border-2 border-transparent transition-all duration-150 outline-none group text-black"
+            className="w-full sm:w-auto flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#fef08a] hover:bg-[#fde047] focus-visible:ring-4 focus-visible:ring-[#facc15] border-2 border-transparent transition-all duration-150 outline-none group text-black"
             aria-label="Start Energize mode"
             onClick={() => {
               /* TODO: Start Energize mode */
@@ -68,7 +68,7 @@ export default function Home() {
             <span>Energize</span>
           </Button>
           <Button
-            className="flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#bae6fd] hover:bg-[#7dd3fc] focus-visible:ring-4 focus-visible:ring-[#38bdf8] border-2 border-transparent transition-all duration-150 outline-none group text-black"
+            className="w-full sm:w-auto flex-1 max-w-xs flex flex-row items-center justify-center gap-3 py-6 px-4 text-xl font-semibold rounded-2xl shadow-lg bg-[#bae6fd] hover:bg-[#7dd3fc] focus-visible:ring-4 focus-visible:ring-[#38bdf8] border-2 border-transparent transition-all duration-150 outline-none group text-black"
             aria-label="Start Reset mode"
             onClick={() => {
               /* TODO: Start Reset mode */
